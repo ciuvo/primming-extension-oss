@@ -1,0 +1,14 @@
+{
+  "extPrimming": {
+    "message": "preis.wert - Forschung zu Online-Angeboten",
+    "description": "name of the Extension"
+  },
+  "extDescription": {
+    "message": "preis.wert erfasst Online-Angebote auf E-Commerce-Webseiten, welche im Rahmen des PRIMMING-Forschungsprojekts analysiert werden.",
+    "description": "Description of the extension in the extension tab"
+  },
+  "tabExplaination": {
+    "message": "<h1>Hier arbeitet <b>preis.wert</b></h1><br>Im Hintergrund werden mehrere E-Commerce Webseiten automatisch aufgerufen und Preise analysiert.<br><br>Deine Teilnahme hilft unserem Forschungsprojekt zu dem Einsatz von dynamischen Preisen. Mehr zu dem Forschungsprojekt und dem Einsatz dieser Browser-Erweiterung findest du <a href=\"https://plugin.dynamic-pricing.at\">hier!</a>",
+    "description": "this is the text shown to the user in the tab where the different product pages are opened"
+  }
+}

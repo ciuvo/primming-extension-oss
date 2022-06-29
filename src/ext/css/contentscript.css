@@ -1,0 +1,44 @@
+/* based on https://www.w3schools.com/howto/howto_css_overlay.asp */
+#primming-overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.98
+  ); /* Black background with opacity */
+  z-index: 2147483647; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+/* center the text in horizontally & vertically */
+#primming-overlay p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7vh;
+  line-height: 1.2em;
+  margin: 0;
+  color: black;
+  position: absolute;
+  max-width: 70%;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 2%;
+  border: solid 2px #c39;
+}
+
+#primming-overlay p h1 {
+  font-size: 4.4vh;
+}
+
+#primming-overlay p img {
+  float: left;
+  padding-right: 3%;
+}

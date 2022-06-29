@@ -1,0 +1,22 @@
+{
+  "name": "primming-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.ciuvo:ciuvo/primming-extension.git"
+  },
+  "author": "Ciuvo GmbH",
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "web-ext": "^5.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "webextension-polyfill": "^0.7.0"
+  }
+}
